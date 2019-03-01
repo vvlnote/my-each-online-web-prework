@@ -1,7 +1,7 @@
 def my_each (arr)
-  length = arr.length
-  while length > 0 
-    yield
-    length -= 1
+  i = 0
+  while i < arr.length
+    yield arr[i]
+    i += 1
   end
 end
