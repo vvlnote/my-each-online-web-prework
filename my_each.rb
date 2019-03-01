@@ -1,3 +1,5 @@
 def my_each (arr)
-  # code here
+  length = arr.length
+  while length > 0 
+  end
 end
